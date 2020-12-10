@@ -1,0 +1,15 @@
+{
+  "name": "dashboard-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "loader.js",
+  "scripts": {
+    "start": "node loader.js",
+    "dev": "nodemon loader.js"
+  },
+  "author": "T3g4n",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

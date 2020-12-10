@@ -1,0 +1,42 @@
+html {
+    font-family: sans-serif;
+    background-image: url("../background.jpg");
+    background-color: grey;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100%;
+}
+
+.title {
+    font-size: 100px;
+}
+
+div.titleBlock {
+    display: inline-block;
+    text-align: center;
+    width: 800px;
+    height: 120px;
+    background-color: rgba(255, 255, 255, 0.300);
+}
+
+div.lowerCentre {
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    width: 1885px;
+    height: 400px;
+    top: 18%;
+    background-color: rgba(255, 255, 255, 0.165);
+}
+
+div.textBox {
+    padding: 10px;
+    margin: auto;
+}
+
+.centre {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
