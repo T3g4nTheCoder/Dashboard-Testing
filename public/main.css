@@ -12,6 +12,7 @@ h1 {
   text-shadow: 2px 2px black;
   -webkit-text-stroke-width: 0.3px;
   -webkit-text-stroke-color: black;
+  margin: 0px;
 }
 
 .rightcorner {
@@ -50,12 +51,12 @@ div {
 .top {
   top: 0;
   padding: 0;
-  margin: 5;
+  margin: 5px;
 }
 
 .topnav {
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
   color: rgb(232, 70, 70);
   background-color: rgb(68, 0, 255);
