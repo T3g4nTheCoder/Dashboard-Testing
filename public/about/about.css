@@ -25,22 +25,32 @@ div.titleBlock {
 }
 
 div.lowerCentre {
-  text-align: center;
   display: inline-block;
   position: absolute;
   top: 20%;
 }
 
+.paragraph {
+  position: absolute;
+  display: inline-block;
+  top: 50%; left: 50%;
+  text-align: center;
+  width: 100%; height: 100%;
+  align-content: center;
+  align-self: center;
+  transform: translateX(-50%) translateY(-50%);
+}
+
 div.textBox {
+  height: 0;
+  padding-bottom: 56.25%;
+  position: relative;
   padding: 10px;
-  margin: auto;
   align-self: stretch;
   display: inline-block;
-  position: absolute;
   background-color: rgba(255, 255, 255, 0.165);
-  width: 1885px;
-  height: 400px;
   line-height: 25px;
+  transform: translateX(-50%) translateY(-50%);
 }
 
 .centre {

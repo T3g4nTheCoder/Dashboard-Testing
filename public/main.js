@@ -13,7 +13,7 @@ dashboard.onclick = () => dashboardClick();
 
 function buttonclick() {
   button.innerHTML = "Loading...";
-  document.location.href = inviteURL;
+  document.location.href = "/invite";
 }
 
 function labelClick() {
