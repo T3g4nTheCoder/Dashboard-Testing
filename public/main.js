@@ -27,7 +27,16 @@ function labelClick() {
 function dashboardClick() {
   dashboard.innerHTML = "Loading...";
   document.location.href = dashboardURL;
-} 
+}
+
+function burgerClick() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
 
 // const fragment = new URLSearchParams(window.location.search);
 

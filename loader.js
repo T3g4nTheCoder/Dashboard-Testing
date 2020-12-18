@@ -1,1 +1,1 @@
-require("./endpoint/index");
+require("./endpoint/index.js")
